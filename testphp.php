@@ -20,4 +20,16 @@ for ($i = 1; $i <= $rows; $i++) {
     echo str_repeat("*", $i) . PHP_EOL;
 }
 
+$rows = 5;
+
+for ($i = 1; $i <= $rows; $i++) {
+    // Print spaces
+    echo str_repeat(" ", $rows - $i);
+
+    // Print stars
+    echo str_repeat("*", 2 * $i - 1);
+
+    echo PHP_EOL;
+}
+
 ?>
