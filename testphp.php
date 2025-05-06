@@ -12,4 +12,12 @@ function fibonacci($n) {
 }
 $fibSeries = fibonacci(10);
 echo "Fibonacci series: " . implode(", ", $fibSeries) . "\n";
+
+
+$rows = 5;
+
+for ($i = 1; $i <= $rows; $i++) {
+    echo str_repeat("*", $i) . PHP_EOL;
+}
+
 ?>
