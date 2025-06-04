@@ -32,4 +32,6 @@ for ($i = 1; $i <= $rows; $i++) {
     echo PHP_EOL;
 }
 
+// This is test code only
+echo "This is test code only\n";
 ?>
