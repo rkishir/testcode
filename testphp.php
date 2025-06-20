@@ -34,4 +34,9 @@ for ($i = 1; $i <= $rows; $i++) {
 
 // This is test code only
 echo "This is test code only\n";
+
+// Print a table of number 2
+for ($i = 1; $i <= 10; $i++) {
+    echo "2 x $i = " . (2 * $i) . PHP_EOL;
+}
 ?>
